@@ -51,3 +51,7 @@
 // let [a, b] = [10, 20];
 // [a, b] = [b, a]
 // console.log(a,b)
+
+// digit sum
+// let num  = 4560
+// console.log(num%10);
