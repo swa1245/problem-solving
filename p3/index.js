@@ -19,5 +19,12 @@
 
 // prime number
 
-n = 17
-
+n = 16
+var prime = true
+for(var i=2;i<=Math.floor(n/2);i++){
+    if(n%i==0){
+        prime = false
+        break
+    }
+}
+console.log(prime); 
